@@ -1,3 +1,25 @@
+import { Routes, Route, Navigate } from "react-router-dom";
+import TeacherLayout from "../layout/TeacherLayout";
+import TeacherDashboard from "../pages/TeacherDashboard";
+import ClassesList from "../pages/ClassesList";
+import Classes from "../pages/Classes";
+import Assignments from "../pages/Assignments";
+import CreateAssignment from "../pages/CreateAssignment";
+import AssignmentView from "../pages/AssignmentView";
+import SubmissionView from "../pages/SubmissionView";
+import Quizzes from "../pages/Quizzes";
+import CreateQuiz from "../pages/CreateQuiz";
+import QuizView from "../pages/QuizView";
+import QuizSubmissionView from "../pages/QuizSubmissionView";
+import QuizReviewView from "../pages/QuizReviewView";
+import StudyMaterials from "../pages/StudyMaterials";
+import UploadMaterial from "../pages/UploadMaterial";
+import StudyMaterialView from "../pages/StudyMaterialView";
+import SessionRecordings from "../pages/SessionRecordings";
+import UploadRecording from "../pages/UploadRecording";
+import LiveSessions from "../pages/LiveSessions";
+
+
 export default function TeacherRoutes() {
   return (
     <Routes>
